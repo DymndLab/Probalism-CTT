@@ -1,0 +1,12 @@
+.vscode/
+.vs/
+AGENTS.md
+*.user
+*.suo
+Source/**/obj/
+Source/**/bin/
+GameData/Probalism-CTT/Plugins/*.pdb
+GameData/Probalism-CTT/Parts/ServerRacks/
+Probalism-CTT.code-workspace
+doitlive.bat
+pack.bat

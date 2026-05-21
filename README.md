@@ -59,6 +59,10 @@ Reference:
 
 - [docs/SetKSCFacilityMinLevel-wiki.md](docs/SetKSCFacilityMinLevel-wiki.md)
 
+## Audio Credits
+
+US Robotics modem sound: Sound Effect by <a href="https://pixabay.com/users/mensi-so-52666801/?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=417318">mensi-so</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=music&utm_content=417318">Pixabay</a>
+
 ## License
 
 MIT © Dymndheartkilla

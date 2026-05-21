@@ -32,26 +32,26 @@ triggered, not that the data was fully received.
 
 ## Data packages
 
-Use `requiredPackageId` to require one exact data package. Use `minDataSize`
-when any package above a minimum size is acceptable.
+Use `requiredPackageId` to require one exact data package. Use `minDataSize` when any package above a minimum size is acceptable.
 
-| Package | Package ID |  Data   |   Mass   |    Cost    |
-|  Ping   |    ping    | 0.03 Mb |  0.04 t  |  25  funds |
-| Packet  |   packet   | 0.07 Mb |  0.08 t  |  60  funds |
-| Burst   |   burst    | 0.12 Mb |  0.12 t  |  110 funds |
-| Stream  |   stream   | 0.20 Mb |  0.16 t  |  180 funds |
+| Package | Package ID | Data    | Mass   | Cost      |
+|---------|------------|---------|--------|-----------|
+| Ping    | `ping`     | 0.03 Mb | 0.04 t | 25 funds  |
+| Packet  | `packet`   | 0.07 Mb | 0.08 t | 60 funds  |
+| Burst   | `burst`    | 0.12 Mb | 0.12 t | 110 funds |
+| Stream  | `stream`   | 0.20 Mb | 0.16 t | 180 funds |
 
 ## Modems
 
-Use `requiredModemId` to require one exact modem. Use `minBandwidth` when any
-modem above a minimum transmission speed is acceptable.
+Use `requiredModemId` to require one exact modem. Use `minBandwidth` when any modem above a minimum transmission speed is acceptable.
 
-|     Modem     | Modem ID | Transmission Rate | Added Mass | Added Cost |
-| PBM-075 Modem | pbm-075  |     0.75 kB/s     |   0.02 t   |  25 funds  |
-| PBM-144 Modem | pbm-144  |     1.44 kB/s     |   0.04 t   |  60 funds  |
-| PBM-288 Modem | pbm-288  |     2.88 kB/s     |   0.07 t   |  120 funds |
-| PBM-336 Modem | pbm-336  |     3.36 kB/s     |   0.10 t   |  180 funds |
-| PBM-560 Modem | pbm-560  |     5.60 kB/s     |   0.15 t   |  300 funds |
+| Modem         | Modem ID  | Transmission Rate | Added Mass | Added Cost |
+|---------------|-----------|-------------------|------------|------------|
+| PBM-075 Modem | `pbm-075` | 0.75 kB/s         | 0.02 t     | 25 funds   |
+| PBM-144 Modem | `pbm-144` | 1.44 kB/s         | 0.04 t     | 60 funds   |
+| PBM-288 Modem | `pbm-288` | 2.88 kB/s         | 0.07 t     | 120 funds  |
+| PBM-336 Modem | `pbm-336` | 3.36 kB/s         | 0.10 t     | 180 funds  |
+| PBM-560 Modem | `pbm-560` | 5.60 kB/s         | 0.15 t     | 300 funds  |
 
 ## Supported fields
 
